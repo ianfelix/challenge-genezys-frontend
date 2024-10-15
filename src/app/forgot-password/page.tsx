@@ -1,5 +1,5 @@
-import ForgotPasswordForm from '@/pages/ForgotPassword';
+import ForgotPasswordForm from '@/screens/ForgotPassword';
 
 export default function ForgotPassword() {
-  return <ForgotPasswordForm />
+  return <ForgotPasswordForm />;
 }
