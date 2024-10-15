@@ -1,4 +1,4 @@
-import LoginForm from '@/pages/LoginForm';
+import LoginForm from '@/screens/LoginForm';
 import { LoginFormValues } from '@/schemas/LoginFormSchema';
 import { loginUser } from '@/services/session';
 
