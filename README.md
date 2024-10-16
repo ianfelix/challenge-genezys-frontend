@@ -37,8 +37,8 @@ To get this project running locally, follow these steps:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/genezys-frontend-challenge.git
-   cd genezys-frontend-challenge
+   git clone https://github.com/ianfelix/challenge-genezys-frontend.git
+   cd challenge-genezys-frontend
    ```
 
 2. Install dependencies:
@@ -63,4 +63,4 @@ In the project directory, you can run:
 
 ## Deployment
 
-This project is deployed on Vercel. You can find the live version [here](https://genezys-frontend-challenge.vercel.app/).
+This project is deployed on Vercel. You can find the live version [here](https://challenge-genezys-frontend.vercel.app).
