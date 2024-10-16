@@ -1,5 +1,102 @@
 {
   "HomePage": {
-    "title": "Olá mundo!"
+    "title": "Olá mundo!",
+    "login": "Entrar"
+  },
+  "LoginForm": {
+    "welcome": "Bem-vindo",
+    "email": "E-mail",
+    "emailPlaceholder": "Insira o seu e-mail",
+    "password": "Senha",
+    "passwordPlaceholder": "Insira a sua senha",
+    "login": "Entrar",
+    "noAccount": "Não tem uma conta?",
+    "register": "Registre-se",
+    "emailRequired": "E-mail é obrigatório",
+    "invalidEmail": "Email inválido",
+    "passwordRequired": "A senha é obrigatória",
+    "passwordMinLength": "A senha deve ter no mínimo 6 caracteres",
+    "forgotPassword": "Esqueceu sua senha?",
+    "loginError": "Login falhou",
+    "loginErrorDescription": "Verifique suas credenciais e tente novamente"
+  },
+  "RegisterForm": {
+    "fullName": "Nome Completo",
+    "fullNamePlaceholder": "João da Silva",
+    "email": "E-mail",
+    "emailPlaceholder": "joao@exemplo.com",
+    "password": "Senha",
+    "passwordPlaceholder": "Digite sua senha",
+    "confirmPassword": "Confirmar Senha",
+    "confirmPasswordPlaceholder": "Confirme sua senha",
+    "cep": "CEP",
+    "cepPlaceholder": "Digite seu CEP",
+    "street": "Rua",
+    "streetPlaceholder": "Digite sua rua",
+    "neighborhood": "Bairro",
+    "neighborhoodPlaceholder": "Digite seu bairro",
+    "number": "Número",
+    "numberPlaceholder": "Digite o número da casa",
+    "city": "Cidade",
+    "cityPlaceholder": "Digite sua cidade",
+    "state": "Estado",
+    "statePlaceholder": "Digite seu estado",
+    "register": "Cadastrar",
+    "registering": "Cadastrando...",
+    "nameMinLength": "O nome deve ter pelo menos 2 caracteres",
+    "passwordMismatch": "As senhas não coincidem",
+    "invalidEmail": "E-mail inválido",
+    "passwordMinLength": "A senha deve ter pelo menos 6 caracteres",
+    "cepLength": "O CEP deve ter 8 caracteres",
+    "cepRequired": "O CEP é obrigatório",
+    "streetRequired": "A rua é obrigatória",
+    "neighborhoodRequired": "O bairro é obrigatório",
+    "numberRequired": "O número é obrigatório",
+    "cityRequired": "A cidade é obrigatória",
+    "stateRequired": "O estado é obrigatório",
+    "confirmPasswordRequired": "A confirmação de senha é obrigatória",
+    "confirmPasswordMinLength": "A confirmação de senha deve ter pelo menos 6 caracteres",
+    "backToLogin": "Voltar para o login",
+    "nameRequired": "O nome é obrigatório",
+    "emailRequired": "O e-mail é obrigatório",
+    "passwordRequired": "A senha é obrigatória",
+    "registerError": "Erro no Cadastro",
+    "registerErrorDescription": "Ocorreu um erro durante o cadastro. Por favor, tente novamente."
+  },
+  "ForgotPasswordForm": {
+    "email": "E-mail",
+    "emailPlaceholder": "Digite seu e-mail",
+    "sendLink": "Enviar link",
+    "sending": "Enviando...",
+    "emailRequired": "E-mail é obrigatório",
+    "invalidEmail": "Email inválido",
+    "forgotPassword": "Esqueceu sua senha?",
+    "emailSent": "Email enviado",
+    "emailSentDescription": "Enviamos um email com um link para resetar sua senha",
+    "backToLogin": "Voltar para o login"
+  },
+  "LanguageToggle": {
+    "toggleLanguage": "Alternar idioma",
+    "english": "Inglês",
+    "portuguese": "Português"
+  },
+  "ThemeToggle": {
+    "toggleTheme": "Alternar tema",
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema"
+  },
+  "Home": {
+    "userListTitle": "Lista de Usuários",
+    "name": "Nome",
+    "email": "E-mail",
+    "address": "Endereço",
+    "previous": "Anterior",
+    "next": "Próxima",
+    "pageInfo": "Página {current} de {total}"
+  },
+  "Navbar": {
+    "appName": "Meu App",
+    "logout": "Sair"
   }
 }

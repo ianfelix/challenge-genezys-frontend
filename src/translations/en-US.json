@@ -1,5 +1,102 @@
 {
   "HomePage": {
-    "title": "Hello world!"
+    "title": "Hello world!",
+    "login": "Login"
+  },
+  "LoginForm": {
+    "welcome": "Welcome",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "login": "Login",
+    "noAccount": "Don't have an account?",
+    "register": "Register",
+    "emailRequired": "Email is required",
+    "invalidEmail": "Invalid email",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must be at least 6 characters long",
+    "forgotPassword": "Forgot your password?",
+    "loginError": "Login failed",
+    "loginErrorDescription": "Check your credentials and try again"
+  },
+  "RegisterForm": {
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "John Doe",
+    "email": "Email",
+    "emailPlaceholder": "john@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "cep": "ZIP Code",
+    "cepPlaceholder": "Enter your ZIP code",
+    "street": "Street",
+    "streetPlaceholder": "Enter your street",
+    "neighborhood": "Neighborhood",
+    "neighborhoodPlaceholder": "Enter your neighborhood",
+    "number": "Number",
+    "numberPlaceholder": "Enter your house number",
+    "city": "City",
+    "cityPlaceholder": "Enter your city",
+    "state": "State",
+    "statePlaceholder": "Enter your state",
+    "register": "Register",
+    "registering": "Registering...",
+    "nameMinLength": "Name must be at least 2 characters long",
+    "passwordMismatch": "Passwords do not match",
+    "invalidEmail": "Invalid email",
+    "passwordMinLength": "Password must be at least 6 characters long",
+    "cepLength": "ZIP code must be 8 characters long",
+    "cepRequired": "ZIP code is required",
+    "streetRequired": "Street is required",
+    "neighborhoodRequired": "Neighborhood is required",
+    "numberRequired": "Number is required",
+    "cityRequired": "City is required",
+    "stateRequired": "State is required",
+    "confirmPasswordRequired": "Confirm password is required",
+    "confirmPasswordMinLength": "Confirm password must be at least 6 characters long",
+    "backToLogin": "Back to login",
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "registerError": "Registration Error",
+    "registerErrorDescription": "An error occurred during registration. Please try again."
+  },
+  "ForgotPasswordForm": {
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "sendLink": "Send link",
+    "sending": "Sending...",
+    "emailSent": "Email sent",
+    "emailSentDescription": "We have sent you an email with a link to reset your password",
+    "emailRequired": "Email is required",
+    "invalidEmail": "Invalid email",
+    "forgotPassword": "Forgot your password?",
+    "backToLogin": "Back to login"
+  },
+  "LanguageToggle": {
+    "toggleLanguage": "Toggle language",
+    "english": "English",
+    "portuguese": "Portuguese"
+  },
+  "ThemeToggle": {
+    "toggleTheme": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "Home": {
+    "userListTitle": "User List",
+    "name": "Name",
+    "email": "Email",
+    "address": "Address",
+    "previous": "Previous",
+    "next": "Next",
+    "pageInfo": "Page {current} of {total}"
+  },
+  "Navbar": {
+    "appName": "My App",
+    "logout": "Logout"
   }
 }
