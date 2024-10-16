@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Genezys Frontend Challenge
+
+This project is a Next.js application developed as part of the Genezys Frontend Challenge. It includes user registration, login, password recovery, and a home page with a user list.
+
+## Features
+
+- User Registration
+- User Login
+- Password Recovery
+- Home Page with User List
+- Internationalization (English and Portuguese)
+- Dark Mode Support
+- Responsive Design
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn UI](https://ui.shadcn.com/)
+- [Next-Intl](https://next-intl-docs.vercel.app/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Zod](https://github.com/colinhacks/zod)
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later) or yarn (v1.22.0 or later)
 
 ## Getting Started
 
-First, run the development server:
+To get this project running locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```
+   git clone https://github.com/your-username/genezys-frontend-challenge.git
+   cd genezys-frontend-challenge
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Install dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```
+   npm install
+   # or
+   yarn install
+   ```
 
-## Learn More
+3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To learn more about Next.js, take a look at the following resources:
+## Available Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+In the project directory, you can run:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `npm run dev` or `yarn dev`: Runs the app in development mode.
+- `npm run build` or `yarn build`: Builds the app for production.
+- `npm start` or `yarn start`: Runs the built app in production mode.
+- `npm run lint` or `yarn lint`: Runs the linter to check for code style issues.
+- `npm test` or `yarn test`: Runs the test suite.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is deployed on Vercel. You can find the live version [here](https://genezys-frontend-challenge.vercel.app/).
