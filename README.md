@@ -22,6 +22,7 @@ This project is a Next.js application developed as part of the Genezys Frontend 
 - [Next-Intl](https://next-intl-docs.vercel.app/)
 - [React Hook Form](https://react-hook-form.com/)
 - [Zod](https://github.com/colinhacks/zod)
+- [Vitest](https://vitest.dev/)
 
 ## Prerequisites
 
@@ -60,6 +61,13 @@ In the project directory, you can run:
 - `npm start` or `yarn start`: Runs the built app in production mode.
 - `npm run lint` or `yarn lint`: Runs the linter to check for code style issues.
 - `npm test` or `yarn test`: Runs the test suite.
+
+## Running Tests
+
+To run the tests, use the following command:
+
+- `npm run test` or `yarn test`: Runs the test suite.
+- `npm run test:ui` or `yarn test:ui`: Runs the test suite with UI.
 
 ## Deployment
 
